@@ -1,4 +1,4 @@
-<pre>
+
   Add Extension to Edge in Windows Sandbox
 1. Create a folder on your host machine with the following files:
 Let's say: C:\Sandbox\EdgeSetup
@@ -19,7 +19,7 @@ powershell -ExecutionPolicy Bypass -File InstallExtension.ps1
 start msedge
 2. Create the Windows Sandbox Configuration File (EdgeWithExtension.wsb)
 xml
-</pre>
+
 <Configuration>
   <MappedFolders>
     <MappedFolder>
@@ -32,7 +32,7 @@ xml
     <Command>C:\EdgeSetup\Startup.cmd</Command>
   </LogonCommand>
 </Configuration>
-<pre>
+
 3. Launch Sandbox with the .wsb file
 Save the .wsb file and double-click it to launch Windows Sandbox.
 
@@ -41,4 +41,4 @@ Map your folder into the sandbox.
 Run the PowerShell script to install the extension via policy.
 Launch Edge with AdBlock auto-installed.
 
-</pre>
+
