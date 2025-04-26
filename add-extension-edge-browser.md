@@ -19,7 +19,7 @@ powershell -ExecutionPolicy Bypass -File InstallExtension.ps1
 start msedge
 2. Create the Windows Sandbox Configuration File (EdgeWithExtension.wsb)
 xml
-```
+```xml
 <Configuration>
   <MappedFolders>
     <MappedFolder>
